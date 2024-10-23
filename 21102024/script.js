@@ -1,3 +1,5 @@
+const { Console } = require("console");
+const { console } = require("inspector");
 
 
 
@@ -203,8 +205,41 @@ console.log(lastLetterOfLastName);
 
 var firstName = "ramniwas";
 var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
-console.log(firstName);
+console.log(thirdToLastLetterOfFirstName);  // Correct log for third-to-last letter
 
-var lastNamee = "rohtak";
-var secondToLastLetterOfLastName = lastName[lastName.length - 2]; 
-console.log(secondToLastLetterOfLastNamee);
+var lastName = "rohtak";
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+console.log(secondToLastLetterOfLastName);  // Correct log for second-to-last letter
+
+
+// word blanks 
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+    var result = "";
+    result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb + ".";
+    return result;
+}
+
+console.log(wordBlanks("dog", "big", "ran", "quickly"));   // The big dog ran to the store quickly.
+console.log(wordBlanks("bike", "slow", "flew", "slowly"));  // The slow bike flew to the store slowly.
+
+// store multiple values with arrays
+var ourArray = ["John", 23];
+var myArray = ["Quincy", 1];
+console.log(ourArray);
+console.log(myArray);
+
+// nested arrays 
+
+    var ourArray = [["The universe",42 ], ["everything", 101010]];
+    var myArray = [["bulls", 23], ["white sox, 26"]];
+    console.log(ourArray);
+    console.log(myArray); 
+
+    // Array finding 
+    var ourArray = [50, 60, 70];
+
+    var ourData = ourArray[];
+
+    var myData =myArray[0];
+    Console.log()
