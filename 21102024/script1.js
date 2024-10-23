@@ -99,3 +99,6 @@ function newFunction() {
   var removedFromMyArray = myArray.pop();
 }
 console.log(myArray);
+
+// shopping list 
+ var myList = [["cereal", 3 ], [ "milk", 2], ["bananas",3]];
