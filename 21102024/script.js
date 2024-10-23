@@ -239,7 +239,17 @@ console.log(myArray);
     // Array finding 
     var ourArray = [50, 60, 70];
 
-    var ourData = ourArray[];
+    var ourData = ourArray[0];
 
-    var myData =myArray[0];
-    Console.log()
+    var myData =myArray[50,60,70];
+    var myData = myArray[0];
+    console.log(myData);
+    console.log(myArray);
+
+    var ourArray =[1,2,3];
+    var removedFromOurArray = ourArray.pop();
+    console.log(ourArray);
+
+    var myArray = [["John", 23], ["Cat", 2]];
+    var removedFromOurArray = myArray.pop();
+    console.log(myArray);
