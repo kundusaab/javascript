@@ -200,3 +200,11 @@ var lastName = "Webhaka";
 
 var lastLetterOfLastName = lastName[lastName.length - 1];
 console.log(lastLetterOfLastName);
+
+var firstName = "ramniwas";
+var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
+console.log(firstName);
+
+var lastNamee = "rohtak";
+var secondToLastLetterOfLastName = lastName[lastName.length - 2]; 
+console.log(secondToLastLetterOfLastNamee);
